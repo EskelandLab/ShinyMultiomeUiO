@@ -56,22 +56,28 @@ Update
 * Provide the path to the `seuratObject` variable in `global.R` with the name of the Seurat object RDS formatted file after analysis.
 
 *  ShinyMultiome.UiO also requires (`fragments.tsv.gz` and `fragments.tsv.gz.tbi`) for the scATAC-seq data. Save both the files in same folder. Update the `fragFilePath` variable in `global.R` with the path to the `fragments.tsv.gz.tbi` fragment index files.
+
 ```r
-seuratObject="PBMCShinySeuratwithcicero.RDS"
-fragFilePath="pbmc_granulocyte_sorted_10k_atac_fragments.tsv.gz"
+  seuratObject="PBMCShinySeuratwithcicero.RDS"
 ```
-* Save the global.R file.
+
+```r
+  fragFilePath="pbmc_granulocyte_sorted_10k_atac_fragments.tsv.gz"
+```
+  
+Save the global.R file.
 
 ### Running ShinyMultiome.UiO on Commandline
 
 Navigate to the folder containing ShinyMultiomeUiO.  
-     ```r  
+
+```r  
     R -e "shiny::runApp('ShinyMultiomeUiO',launch.browser =TRUE)" 
-    ```
+```
 ### Running ShinyMultiome.UiO on R GUI 
-     ```r 
+```r 
     shiny::runApp('ShinyMultiomeUiO')
-     ```
+```
 # ShinyMultiome.UiO Visualization and Functionalities.
 
 
