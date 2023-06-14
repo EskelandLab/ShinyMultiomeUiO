@@ -88,10 +88,8 @@ This ShinyMultiome.UiO that provides various visualization plots after jointly a
 The Clustering tab allows you to visualize clustering results and explore the relationships between cells.
 
 ### Plots
-
 - Plot 1: A plot showing the relationship between selected cell information and the chosen dimensionality reduction method.
-
-![Plot 1](/images/plot1.png)
+<img width="605" alt="Screenshot 2023-06-14 at 22 28 22" src="https://github.com/EskelandLab/ShinyMultiomeUiO/assets/32255128/8083cf15-435a-45df-b135-962a148e601b">
 
 - Plot 2: Another plot showing the relationship between a different cell information and the chosen dimensionality reduction method.
 
