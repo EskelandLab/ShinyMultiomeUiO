@@ -58,7 +58,7 @@ We utilized a publicly available 10x Genomic Multiome dataset of human PBMCs for
      ``` 
 
 #### 3. Setting up parameters  
-To begin, open the `global.R` file in a text editor and define the following parameters:
+To begin, open the `global.R` file in a text editor and edit the following parameters:
 
 
 * `seuratObject`: Provide the file path to the Seurat object RDS formatted file obtained after analysis in the variable named `seuratObject`.
