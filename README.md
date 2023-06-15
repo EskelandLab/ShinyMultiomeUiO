@@ -11,27 +11,28 @@ We utilized the a publicly available 10x Genomic Multiome dataset for human PBMC
 
 ## Table of Contents and Additional Tutorials
 ### This readme is divided into the following sections:
-* [Installation](https://github.com/EskelandLab/ShinyArchRUiO#installation)
+* [Installation](https://github.com/EskelandLab/ShinyMultiomeUiO#installation)
 * [Quick Start Guide to rapidly deploy a ShinyMultiome.UiO](https://github.com/EskelandLab/ShinyMultiomeUiO#quick-start-guide)
 * [Frequently Asked Questions](https://github.com/EskelandLab/ShinyMultiomeUiO#frequently-asked-questions)
 * [Citation and additional info](https://github.com/EskelandLab/ShinyMultiomeUiO#additional-info)
 
 ## Installation:
 
- Download ShinyArchR.UiO from github.com/EskelandLab/ShinyArchR.UiO  
+ Download ShinyMultiome.UiO from github.com/EskelandLab/ShinyMultiome.UiO  
  or 
  ```r 
- git clone https://github.com/EskelandLab/ShinyArchR.UiO.git
+ git clone https://github.com/EskelandLab/ShinyMultiome.UiO.git
 ```
 ## Quick Start guide
-  The analysis performed as shown in the [ArchR full manual](https://www.archrproject.com/bookdown/index.html) on a test dataset of 
-  hematopoietic cells can be applied to users' datasets.  
+  The analysis performed as shown in the [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) on a test dataset of 
+  PBMC cells can be applied to users' datasets.  
 
 ### Installation of mandatory packages
 Open R environment or R GUI of your choice and run the following code:
 ```r 
 #check for devtools
 if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+```
 
 #Installing Required packages  
 ```R
