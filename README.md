@@ -1,16 +1,16 @@
 #### Table of contents
 
-- [ShinyMultiome.UiO for Multiome Data Visualization.](#shinymultiomeuio-for-multiome-data-visualization)
+- [ShinyMultiome.UiO for Multiome Data Visualization](#shinymultiomeuio-for-multiome-data-visualization)
 - [Downsampled tutorial data](#downsampled-tutorial-data)
 - [Installation](#installation)
 - [Running ShinyMultiome.UiO](#running-shinymultiomeuio)
-- [ShinyMultiome.UiO Visualization and Functionalities.](#shinymultiomeuio-visualization-and-functionalities)
+- [ShinyMultiome.UiO Visualization and Functionalities](#shinymultiomeuio-visualization-and-functionalities)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Citations information](#citations-information)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-## ShinyMultiome.UiO for Multiome Data Visualization.
+## ShinyMultiome.UiO for Multiome Data Visualization
 
 [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO)(ShinyMultiome User interface Open) is a user-friendly, integrative, and open-source shiny-based web app using R programming for visualization of jointly analyzed massive single-cell chromatin accessibility data (scATAC-seq) and single-cell RNA-seq(scRNA-seq) from same cells using based on [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) ([Stuart et al, 2021](https://www.nature.com/articles/s41592-021-01282-5)).
 An example of web interface on the tutorial dataset is available at [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO). 
@@ -84,7 +84,7 @@ Note: Make sure to save the changes after modifying the parameters in the `globa
       shiny::runApp('ShinyMultiomeUiO')
       ```
      
-## ShinyMultiome.UiO Visualization and Functionalities.
+## ShinyMultiome.UiO Visualization and Functionalities
 
 ShinyMultiome.UiO offers various visualization plots after jointly analyzing single-cell chromatin accessibility data and single-cell RNA sequencing (scRNA-seq) multiome data from the same cell. 
 
