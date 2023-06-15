@@ -3,18 +3,8 @@
 - [ShinyMultiome.UiO for Multiome Data Visualization.](#shinymultiomeuio-for-multiome-data-visualization)
 - [Downsampled tutorial data](#downsampled-tutorial-data)
 - [Installation](#installation)
-    + [1. Download ShinyMultiome.UiO Source Code](#1-download-shinymultiomeuio-source-code)
-    + [2. Installation of mandatory packages](#2-installation-of-mandatory-packages)
-    + [3. Setting up parameters](#3-setting-up-parameters)
 - [Running ShinyMultiome.UiO](#running-shinymultiomeuio)
-    + [Using Commandline](#using-commandline)
-    + [Using R GUI](#using-r-gui)
 - [ShinyMultiome.UiO Visualization and Functionalities.](#shinymultiomeuio-visualization-and-functionalities)
-    + [1. Clustering Tab](#1-clustering-tab)
-    + [2. Feature of Interest](#2-feature-of-interest)
-    + [3. Coverage Plot](#3-coverage-plot)
-    + [4. Footprint Plot](#4-footprint-plot)
-    + [5. Downloading Plots](#5-downloading-plots)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Citations information](#citations-information)
 - [Acknowledgements](#acknowledgements)
@@ -23,7 +13,7 @@
 ## ShinyMultiome.UiO for Multiome Data Visualization.
 
 [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO)(ShinyMultiome User interface Open) is a user-friendly, integrative, and open-source shiny-based web app using R programming for visualization of jointly analyzed massive single-cell chromatin accessibility data (scATAC-seq) and single-cell RNA-seq(scRNA-seq) from same cells using based on [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) ([Stuart et al, 2021](https://www.nature.com/articles/s41592-021-01282-5)).
-An example of web interface on the tutorial dataset is available at [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO) . 
+An example of web interface on the tutorial dataset is available at [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO). 
 
 
 ## Downsampled tutorial data
@@ -34,7 +24,7 @@ We utilized a publicly available 10x Genomic Multiome dataset of human PBMCs for
 ## Installation
 
 #### 1. Download ShinyMultiome.UiO Source Code  
-  +  Download ShinyMultiome.UiO from the [https://github.com/EskelandLab/ShinyMultiomeUiO](https://github.com/EskelandLab/ShinyMultiomeUiO)
+  +  Download ShinyMultiome.UiO from the [https://github.com/EskelandLab/ShinyMultiomeUiO](https://github.com/EskelandLab/ShinyMultiomeUiO).
 
       OR
   +   ```r 
