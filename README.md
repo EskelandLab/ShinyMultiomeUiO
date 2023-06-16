@@ -87,6 +87,8 @@ Note: Make sure to save the changes after modifying the parameters in the `globa
 ## ShinyMultiome.UiO Visualization and Functionalities
 
 ShinyMultiome.UiO offers various visualization plots after jointly analyzing single-cell chromatin accessibility data and single-cell RNA sequencing (scRNA-seq) multiome data from the same cell. 
+![Homepage](https://github.com/EskelandLab/ShinyMultiomeUiO/assets/32255128/f781e957-0eef-442a-b813-1e606b788dbd)
+
 
 #### 1. Clustering Tab
 
