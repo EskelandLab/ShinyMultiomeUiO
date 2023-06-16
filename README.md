@@ -97,7 +97,7 @@ The Clustering tab provides a platform to visualize clustering results and inves
 
       - <u>Plot 2</u>: Another plot showing the relationship between different cell information and the chosen dimensionality reduction method.
 
-         ![Plot 2](/images/plot2.png)
+     
 
 
 
@@ -109,11 +109,11 @@ The Feature of Interest section allows you to explore specific features in the s
 
      - <u>Plot 1</u>: A plot visualizing the chosen feature using the selected plot type (Ridge, Violin, or UMAP).
      
-       ![Plot 3](/images/plot3.png)
+
      
      - <u>Plot 2</u>: Another plot visualizing a different feature using the selected plot type.
      
-       ![Plot 4](/images/plot4.png)
+       
 
 
 #### 3. Coverage Plot
@@ -123,7 +123,7 @@ The Coverage Plot section allows you to visualize the coverage of specific genom
   +  ##### Plot
      - Coverage Plot: A plot showing the coverage of the selected region or feature.
     
-       ![Plot 5](/images/plot5.png)
+      
 
 
 #### 4. Footprint Plot
@@ -134,7 +134,7 @@ The Footprint Plot section allows you to analyze transcription factor binding mo
 
      - <u>Footprint Plot</u>: A plot showing the footprints of selected motifs.
      
-       ![Plot 6](/images/plot6.png)
+    
 
 #### 5. Downloading Plots
  
@@ -166,7 +166,7 @@ Kernel:	Linux 4.18.0-305.el8.x86_64
 Please cite **ShinyMultiome.UiO** article preprinted in **[BiorXiV preprint](link to preprint).**
 
 Contributors
-Ankush Sharma, Akshay Akshay, Ragnhild Eskeland, 
+ Akshay Akshay, Ankush Sharma, Ragnhild Eskeland, 
 
 
 ## Acknowledgements
