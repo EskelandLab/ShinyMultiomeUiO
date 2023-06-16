@@ -91,50 +91,34 @@ ShinyMultiome.UiO offers various visualization plots after jointly analyzing sin
 #### 1. Clustering Tab
 
 The Clustering tab provides a platform to visualize clustering results and investigate the relationships between cells.   
-  +  ##### Plots
+  
       - <u> Plot 1 </u>: The plot displays the relationship between the selected cell information and the chosen dimensionality reduction method. 
         <img width="605" alt="Screenshot 2023-06-14 at 22 28 22" src="https://github.com/EskelandLab/ShinyMultiomeUiO/assets/32255128/8083cf15-435a-45df-b135-962a148e601b">
 
       - <u>Plot 2</u>: Another plot showing the relationship between different cell information and the chosen dimensionality reduction method.
 
-     
-
-
-
 #### 2. Feature of Interest
 
 The Feature of Interest section allows you to explore specific features in the scRNA-seq data.
 
-  +  ##### Plots
-
      - <u>Plot 1</u>: A plot visualizing the chosen feature using the selected plot type (Ridge, Violin, or UMAP).
      
-
-     
      - <u>Plot 2</u>: Another plot visualizing a different feature using the selected plot type.
-     
-       
-
 
 #### 3. Coverage Plot
 
 The Coverage Plot section allows you to visualize the coverage of specific genomic regions or features.
 
-  +  ##### Plot
+
      - Coverage Plot: A plot showing the coverage of the selected region or feature.
     
-      
-
 
 #### 4. Footprint Plot
 
 The Footprint Plot section allows you to analyze transcription factor binding motifs in the scRNA-seq data.
 
-  +  ##### Plot
-
      - <u>Footprint Plot</u>: A plot showing the footprints of selected motifs.
      
-    
 
 #### 5. Downloading Plots
  
