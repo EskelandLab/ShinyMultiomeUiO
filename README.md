@@ -17,9 +17,7 @@ An example of web interface on the tutorial dataset is available at [ShinyMultio
 
 
 ## Downsampled tutorial data
-We utilized a publicly available 10x Genomic Multiome dataset for human PBMCs for analysis using [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) and transcription factor footprinting using [Cicero](https://stuartlab.org/signac/articles/footprint.html). The analysis performed on a test dataset of PBMC cells using Signac [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) on a test dataset of PBMC cells can be applied to users' datasets. 
-
-We utilized a publicly available 10x Genomic Multiome dataset of human PBMCs for analysis, employing Signac for cell clustering and identification of cell types. Additionally, we utilized Cicero for transcription factor footprinting. The analysis performed on a test dataset of PBMC cells using Signac can be applied to users' own datasets.
+We utilized a publicly available 10x Genomic Multiome dataset for human PBMCs for analysis using  and transcription factor footprinting using [Cicero](https://stuartlab.org/signac/articles/footprint.html). The analysis performed on a test dataset of PBMC cells using Signac [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) on a test dataset of PBMC cells can be applied to users' datasets. 
 
 ## Installation
 
@@ -86,26 +84,26 @@ Note: Make sure to save the changes after modifying the parameters in the `globa
      
 ## ShinyMultiome.UiO Visualization and Functionalities
 
-ShinyMultiome.UiO offers various visualization plots after jointly analyzing single-cell chromatin accessibility data and single-cell RNA sequencing (scRNA-seq) multiome data from the same cell. 
+ShinyMultiome.UiO offers various visualization plots after jointly analyzing single-cell chromatin accessibility data (scATAC-seq) and single-cell RNA sequencing (scRNA-seq) multiome data from the same cell. 
 ![Homepage](https://github.com/EskelandLab/ShinyMultiomeUiO/assets/32255128/f781e957-0eef-442a-b813-1e606b788dbd)
 
 
 #### 1. Clustering Tab
 
-The Clustering tab provides a platform to visualize clustering results and investigate the relationships between cells. The plot displays the relationship between the selected cell information and the chosen dimensionality reduction method. Another plot showing the relationship between different cell information and the chosen dimensionality reduction method.
+The Clustering tab provides a platform to visualize clustering results and investigate the relationships between cells. The two plots displays the relationship between the selected cell information and the chosen dimensionality reduction method (UMAP, LSI or PCA).
 
 #### 2. Feature of Interest
 
-The Feature of Interest section allows you to explore specific features in the scRNA-seq data. A plot visualizing the chosen feature using the selected plot type (Ridge, Violin, or UMAP). Another plot visualizing a different feature using the selected plot type.
+The Feature of Interest section allows user to explore specific features in the scRNA-seq data. Generate a plot visualizing two features using the selected plot type (Ridge, Violin, or UMAP) for four different assay types (ATAC, peaks, RNA or SCT) . Cell types can be manually added or removed for the two plots."
 
 #### 3. Coverage Plot
 
-The Coverage Plot section allows you to visualize the coverage of specific genomic regions or features.
+The Coverage Plot section allows user to visualize the coverage of specific genomic regions or features.
     
 
 #### 4. Footprint Plot
 
-The Footprint Plot section allows you to analyze transcription factor binding motifs in the scATAC-seq data.
+The Footprint Plot section allows user to analyze transcription factor binding motifs in the scATAC-seq data.
      
 
 #### 5. Downloading Plots
@@ -137,15 +135,13 @@ Kernel:	Linux 4.18.0-305.el8.x86_64
 ## Citations information
 Please cite **ShinyMultiome.UiO** article preprinted in **[BiorXiV preprint](link to preprint).**
 
-Contributors
- Akshay Akshay, Ankush Sharma, Ragnhild Eskeland, 
+# Contributors
+Akshay Akshay, Ankush Sharma, Ragnhild Eskeland. 
 
 
 ## Acknowledgements
 
-This Shiny app was developed using the [shiny](https://shiny.rstudio.com/) package in R and makes use of various other R packages for data analysis and visualization.
-
-
+This ShinyMultiome.UiO is developed using the [Shiny](https://shiny.rstudio.com/) package in R and makes use of various other R packages for data analysis and visualization.
 
 ## License
 
