@@ -135,7 +135,7 @@ Kernel:	Linux 4.18.0-305.el8.x86_64
 ## Citations information
 Please cite **ShinyMultiome.UiO** article preprinted in **[BiorXiV preprint](link to preprint).**
 
-# Contributors
+### Contributors
 Akshay Akshay, Ankush Sharma, Ragnhild Eskeland. 
 
 
