@@ -60,12 +60,15 @@ To begin, open the `global.R` file in a text editor and edit the following param
 
 
 * `seuratObject`: Provide the file path to the Seurat object RDS formatted file obtained after analysis in the variable named `seuratObject`.
-   ```r
-    seuratObject="path/to/seurat-object.RDS"
+  ```r
+  seuratObject="path/to/seurat-object.RDS"
   ```
 
 *  `fragFilePath`: ShinyMultiome.UiO also requires the path to the files <b>fragments.tsv.gz</b> and <b>fragments.tsv.gz.tbi</b> for the scATAC-seq data. Therefore, please provide the file path of <b>fragments.tsv.gz</b> in the  `fragFilePath` variable. Additionally, ensure that <b>fragments.tsv.gz.tbi</b> is available in the same folder as <b>fragments.tsv.gz</b>.
-
+  
+   ```r
+   fragFilePath="path/to/fragments.tsv.gz"
+   ```
 Note: Make sure to save the changes after modifying the parameters in the `global.R` file.
 
 
