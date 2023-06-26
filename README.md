@@ -15,6 +15,13 @@
 [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO)(ShinyMultiome User interface Open) is a user-friendly, integrative, and open-source shiny-based web app using R programming for visualization of jointly analyzed massive single-cell chromatin accessibility data (scATAC-seq) and single-cell RNA-seq(scRNA-seq) from same cells using based on [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) ([Stuart et al, 2021](https://www.nature.com/articles/s41592-021-01282-5)).
 An example of web interface on the tutorial dataset is available at [ShinyMultiome.UiO](https://cancell.medisin.uio.no/ShinyMultiome.UiO). 
 
+#### See our [preprint](https://www.biorxiv.org/content/10.1101/2023.06.20.545756v2)
+
+ShinyMultiome.UiO: An interactive open-source framework utilizing Seurat Objects for visualizing single-cell Multiomes.
+*Akshay Akshay, Ankush Sharma, Ragnhild Eskeland*  
+**bioRxiv** 2023.06.20.545756;  
+doi: https://doi.org/10.1101/2023.06.20.545756
+
 
 ## Downsampled tutorial data
 We utilized a publicly available 10x Genomic Multiome dataset for human PBMCs for analysis using  and transcription factor footprinting using [Cicero](https://stuartlab.org/signac/articles/footprint.html). The analysis performed on a test dataset of PBMC cells using Signac [Signac](https://stuartlab.org/signac/articles/pbmc_multiomic.html) on a test dataset of PBMC cells can be applied to users' datasets. 
@@ -135,12 +142,12 @@ CPE OS Name:	cpe:/o:redhat:enterprise_linux:8.4:GA
 Kernel:	Linux 4.18.0-305.el8.x86_64
 ```
 
-## Citations information
-Please cite **ShinyMultiome.UiO** article preprinted in **[BiorXiV preprint](link to preprint).**
-
-### Contributors
-Akshay Akshay, Ankush Sharma, Ragnhild Eskeland. 
-
+## Citations information & Contributors
+Please cite **ShinyMultiome.UiO** article preprinted in **[BiorXiV preprint](https://www.biorxiv.org/content/10.1101/2023.06.20.545756v2).**
+ShinyMultiome.UiO: An interactive open-source framework utilizing Seurat Objects for visualizing single-cell Multiomes
+Akshay Akshay, Ankush Sharma, Ragnhild Eskeland
+bioRxiv 2023.06.20.545756; 
+doi: https://doi.org/10.1101/2023.06.20.545756
 
 ## Acknowledgements
 
