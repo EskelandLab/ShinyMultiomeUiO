@@ -17,7 +17,7 @@ An example of web interface on the tutorial dataset is available at [ShinyMultio
 
 #### See our [preprint](https://www.biorxiv.org/content/10.1101/2023.06.20.545756v2)
 
-ShinyMultiome.UiO: An interactive open-source framework utilizing Seurat Objects for visualizing single-cell Multiomes.
+**ShinyMultiome.UiO**: An interactive open-source framework utilizing Seurat Objects for visualizing single-cell Multiomes.
 *Akshay Akshay, Ankush Sharma, Ragnhild Eskeland*  
 **bioRxiv** 2023.06.20.545756;  
 doi: https://doi.org/10.1101/2023.06.20.545756
